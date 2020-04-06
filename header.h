@@ -72,7 +72,7 @@ public:
 	void Update()  //receive new information from subscription
 	{
 		std::string newInfor = observedTwitter->GetUpdates();
-		std::cout << observerName << " receoved information: " << newInfor << std::endl;
+		std::cout << observerName << " received information: " << newInfor << std::endl;
 	}
 };
 
